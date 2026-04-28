@@ -1,27 +1,85 @@
-# ignore donwsampled ctop_models 
+
 /circuit_topology_matrices/*_circuit_model.dat 
 /circuit_topology_matrices/*_ctop_model.npz
-
-# sa series is too large 
+/hiapp_20rep_analyses/s20g_hiapp_apo_20rep_analyses/sa_timeseries.json
 /hiapp_20rep_analyses/s20g_hiapp_yxa1_20rep_analyses/sa_timeseries.json
 /hiapp_20rep_analyses/s20g_hiapp_yxi1_20rep_analyses/sa_timeseries.json
+/hiapp_20rep_analyses/wt_hiapp_apo_20rep_analyses/sa_timeseries.json
 /hiapp_20rep_analyses/wt_hiapp_yxa1_20rep_analyses/sa_timeseries.json
 /hiapp_20rep_analyses/wt_hiapp_yxi1_20rep_analyses/sa_timeseries.json
-/hiapp_20rep_analyses/s20g_hiapp_apo_20rep_analyses/sa_timeseries.json
-/hiapp_20rep_analyses/wt_hiapp_apo_20rep_analyses/sa_timeseries.json
-
-# large trajectories 
-/wt_hiapp_apo/outdir_wt_hiapp_apo/hiapp_wt_apo_300k.xtc
-/s20g_hiapp_apo/outdir_s20g_hiapp_apo/hiapp_s20g_apo_300k.xtc
 /pbc_demux_trjs_s20g_hiapp_apo/
 /pbc_demux_trjs_wt_hiapp_apo/
-
-# hide visualization folders with trajectories 
+/s20g_hiapp_apo/outdir_s20g_hiapp_apo/hiapp_s20g_apo_300k.xtc
 /s20g_hiapp_yxa1/outdir_s20g_hiapp_yxa1/outdir_vis_basins/
 /s20g_hiapp_yxi1/outdir_s20g_hiapp_yxi1/outdir_vis_basins/
-/wt_hiapp_yxi1/outdir_wt_hiapp_yxi1/outdir_vis_basins/
-/wt_hiapp_yxa1/outdir_wt_hiapp_yxa1/outdir_vis_basins/
-
-# hide miscallaneous files
 /scripts/apply_custom_reps_align.tcl
 /scripts/ligand_3d_contact_probabilities.py
+/wt_hiapp_apo/outdir_wt_hiapp_apo/hiapp_wt_apo_300k.xtc
+/wt_hiapp_yxa1/outdir_wt_hiapp_yxa1/outdir_vis_basins/
+/wt_hiapp_yxi1/outdir_wt_hiapp_yxi1/outdir_vis_basins/
+# hide miscallaneous files
+# hide visualization folders with trajectories 
+# ignore donwsampled ctop_models 
+# large trajectories 
+# sa series is too large 
+circuit_topology_matrices/s20g_hiapp_apo_circuit_model.dat
+circuit_topology_matrices/s20g_hiapp_apo_ctop_model.npz
+circuit_topology_matrices/s20g_hiapp_yxa1_circuit_model.dat
+circuit_topology_matrices/s20g_hiapp_yxa1_ctop_model.npz
+circuit_topology_matrices/s20g_hiapp_yxi1_circuit_model.dat
+circuit_topology_matrices/s20g_hiapp_yxi1_ctop_model.npz
+circuit_topology_matrices/wt_hiapp_apo_circuit_model.dat
+circuit_topology_matrices/wt_hiapp_apo_ctop_model.npz
+circuit_topology_matrices/wt_hiapp_yxa1_circuit_model.dat
+circuit_topology_matrices/wt_hiapp_yxa1_ctop_model.npz
+circuit_topology_matrices/wt_hiapp_yxi1_circuit_model.dat
+circuit_topology_matrices/wt_hiapp_yxi1_ctop_model.npz
+hiapp_20rep_analyses/wt_hiapp_apo_20rep_analyses/sa_timeseries.json
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_1.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_10.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_11.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_12.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_13.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_14.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_15.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_16.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_17.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_18.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_19.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_2.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_20.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_3.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_4.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_5.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_6.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_7.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_8.xtc
+pbc_demux_trjs_wt_hiapp_apo/demux/Demux_9.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_1.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_10.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_11.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_12.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_13.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_14.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_15.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_16.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_17.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_18.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_19.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_2.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_20.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_3.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_4.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_5.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_6.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_7.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_8.xtc
+pbc_demux_trjs_wt_hiapp_apo/pbc/pbc_9.xtc
+s20g_hiapp_yxa1/outdir_s20g_hiapp_yxa1/sasa_by_atom.dat
+s20g_hiapp_yxa1/outdir_s20g_hiapp_yxa1/sasa_by_heavy_atom.dat
+s20g_hiapp_yxi1/outdir_s20g_hiapp_yxi1/sasa_by_atom.dat
+s20g_hiapp_yxi1/outdir_s20g_hiapp_yxi1/sasa_by_heavy_atom.dat
+wt_hiapp_yxa1/outdir_wt_hiapp_yxa1/sasa_by_atom.dat
+wt_hiapp_yxa1/outdir_wt_hiapp_yxa1/sasa_by_heavy_atom.dat
+wt_hiapp_yxi1/outdir_wt_hiapp_yxi1/sasa_by_atom.dat
+wt_hiapp_yxi1/outdir_wt_hiapp_yxi1/sasa_by_heavy_atom.dat
