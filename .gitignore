@@ -22,6 +22,7 @@
 # ignore donwsampled ctop_models 
 # large trajectories 
 # sa series is too large 
+circuit_topology_matrices/circuit_topology_matrices.zip
 circuit_topology_matrices/s20g_hiapp_apo_circuit_model.dat
 circuit_topology_matrices/s20g_hiapp_apo_ctop_model.npz
 circuit_topology_matrices/s20g_hiapp_yxa1_circuit_model.dat
@@ -79,6 +80,7 @@ s20g_hiapp_yxa1/outdir_s20g_hiapp_yxa1/sasa_by_atom.dat
 s20g_hiapp_yxa1/outdir_s20g_hiapp_yxa1/sasa_by_heavy_atom.dat
 s20g_hiapp_yxi1/outdir_s20g_hiapp_yxi1/sasa_by_atom.dat
 s20g_hiapp_yxi1/outdir_s20g_hiapp_yxi1/sasa_by_heavy_atom.dat
+trjs.zip
 wt_hiapp_yxa1/outdir_wt_hiapp_yxa1/sasa_by_atom.dat
 wt_hiapp_yxa1/outdir_wt_hiapp_yxa1/sasa_by_heavy_atom.dat
 wt_hiapp_yxi1/outdir_wt_hiapp_yxi1/sasa_by_atom.dat

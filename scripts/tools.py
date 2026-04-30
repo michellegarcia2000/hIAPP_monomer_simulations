@@ -1638,7 +1638,7 @@ def compute_contact_matrix(traj, protein_residues, ligand_atom_indices, cutoff=0
     
     return contact_matrix
 
-def get_fraction_chemical_group(trj, protein_residues, ligand_moiety_indices):
+def get_fraction_chemical_group(trj, protein_residues, ligand_moiety_indices, cutoff=0.5):
     """
     Computes the average contact matrix for a specific moiety of the ligand.
     
@@ -1651,7 +1651,7 @@ def get_fraction_chemical_group(trj, protein_residues, ligand_moiety_indices):
         np.ndarray: Average contact matrix for the specified moiety.  
     """
 
-    contact_matrix = compute_contact_matrix(trj, protein_residues, ligand_moiety_indices, cutoff=0.5)
+    contact_matrix = compute_contact_matrix(trj, protein_residues, ligand_moiety_indices, cutoff=cutoff)
     group_frac_one_hot = np.where(np.sum(contact_matrix, axis=1) > 0, 1, 0)
     group_frac, group_frac_be = get_blockerror_pyblock(group_frac_one_hot)
     return group_frac , group_frac_be   # Convert to percentage
